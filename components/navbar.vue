@@ -1,7 +1,9 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-navbar border-main">
     <div class="container">
-      <a class="navbar-brand" href="#">MCHEAP</a>
+      <nuxt-link to="/" class="navbar-brand">
+        MCHEAP
+      </nuxt-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -17,28 +19,39 @@
       <div id="navbarSupportedContent" class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <nuxt-link to="/" class="nav-link">
+              Home <span class="sr-only">(current)</span>
+            </nuxt-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <nuxt-link to="" class="nav-link">
+              Link
+            </nuxt-link>
           </li>
           <li class="nav-item dropdown">
-            <a
+            <nuxt-link
               id="navbarDropdown"
+              to=""
               class="nav-link dropdown-toggle"
-              href="#"
+
               role="button"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
               Dropdown
-            </a>
+            </nuxt-link>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
+              <nuxt-link to="" class="dropdown-item">
+                Action
+              </nuxt-link>
+              <nuxt-link to="" class="dropdown-item">
+                Another action
+              </nuxt-link>
               <div class="dropdown-divider" />
-              <a class="dropdown-item" href="#">Something else here</a>
+              <nuxt-link to="" class="dropdown-item">
+                Something else here
+              </nuxt-link>
             </div>
           </li>
         </ul>

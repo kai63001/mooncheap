@@ -44,6 +44,10 @@ body {
   background-color: rgba(black, 0.4) !important;
 }
 
+.color-purple {
+  color: #8338ec !important;
+}
+
 .bg-main {
   background-color: #d90429 !important;
 }
@@ -77,5 +81,13 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.img-game{
+  height: 160px !important;
+}
+@media only screen and (max-width: 600px) {
+ .img-game{
+    height: 100px !important;
+  }
 }
 </style>
